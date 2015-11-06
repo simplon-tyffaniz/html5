@@ -1,0 +1,37 @@
+
+h3{
+  font-family: sans-serif;
+}
+h3{
+  font-style: italic;
+}
+h3{
+  color: #8E3557;
+}
+
+p{
+text-align: right;
+}
+p{
+  color:#383838;
+}
+body{
+  background-image:url(fond-site.jpg);
+}
+label {
+  display:block;
+  float:left;
+  width:150px;
+  text-align:left;
+  padding:0 5px 0 0
+}
+input {float:left}
+
+
+textarea{
+width: 1000px
+}
+
+.button{
+  color:#A00000;
+}
