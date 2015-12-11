@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet"href="....">
+
+    <title>Nouveaux éléments HTML5</title>
+</head>
+<body>
+<h1>Nouveaux éléments en HTML5</h1>
+<h2>Contenu inclus :</h2>
+<div class="video">
+<h3> Intégrer une vidéo sans Plug-ins externes : </h3>
+<pre> &lt;video controls src=''votrevideo.mp4''&gt;&lt;/video&gt;</pre>
+<img src="img/video.png"
+</div>
+
+</br>
+</br>
+</br>
+</br>
+
+<div class="audio">
+<h3>Intégrer un fichier audio :</h3>
+<pre>&lt;audio src="dancehall.wav" autoplay&gt;&lt;/audio&gt;</pre>
+<img src="img/audio.png">
+</br>
+<p>La balise source est utilisée pour définir différents formats alternatifs d'un média au
+  sein des éléments audio ou video pour permettre un
+   support plus large du média par les différents navigateurs (ceux-ci ne supportant pas les mêmes formats). </p>
+ </br>
+ </br>
+ <pre>
+&lt;audio controls&gt;
+&lt;source 	src="lecon3.ogg"&gt;
+&lt;source 	src="lecon3.mp3"&gt;
+&lt;source  src="lecon3.wav"&gt;
+&lt;/audio&gt;</pre>
+</br>
+<img src="img/compatible.png">
+</div>
+
+</br>
+</br>
+</br>
+</br>
+
+<div class="canvas">
+<h3>La balise CANVAS: </h3>
+<p>L’élément canvas est une partie cruciale de HTML5 qui ne
+fonctionne qu’avec des navigateurs compatibles HTML5, Il faut donc avertir les utilisateurs qu’ils ont besoin
+d’un navigateur HTML5.L'élément canvas est un composant de HTML qui permet d'effectuer des rendus dynamiques
+d'images bitmap via des scripts
+Pour vérifier si cela fonctionne avec un navigateur :
+le plus simple et le plus informatif (pour l’utilisateur) est de
+placer un message dans le conteneur canvas.
+Seuls les utilisateurs ne disposant pas
+de navigateurs compatibles HTML5 verront le texte dans le conteneur.</p>
+</br>
+</br>
+<pre>&lt;canvas id="mon_canvas" width="350" height="350"&gt;
+Texte alternatif pour les navigateurs ne supportant pas Canvas.
+&lt;/canvas&gt;  </pre>
+</div>
+
+</br>
+</br>
+</br>
+</br>
+
+
+<div class="embed">
+<h3>La balise embed:</h3>
+<p>La balise embed définit un conteneur pour une application externe ou un contenu interactif (flash …).</p>
+</br>
+<pre>&lt;embed src="fichierFlash.swf" /&gt;</pre>
+</br>
+<img src="img/embed.png">
+
+</div>
+
+<p> Copyright @ Tyffani & Ulysse </p>
+
+</body>
+</html>
